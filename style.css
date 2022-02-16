@@ -178,9 +178,11 @@ font-size: var(--primary-font-size);
         background-image: url("./images/bg-desktop.png");
         background-size: contain;
         background-position: bottom;
+        display: flex;
+        place-items: center;
     }
     .grid-wrapper{
-        grid-template-columns: 30% 60%;
+        grid-template-columns: 30% 50%;
         gap: 2rem;
         align-items: flex-end;
         justify-content: center;
@@ -201,6 +203,5 @@ font-size: var(--primary-font-size);
 	border-left: 25px solid transparent;
 	border-bottom: 50px solid transparent;
 	border-right: 50px solid rgb(255, 255, 255);
-    /* transform: rotate(154deg); */
     }
 }
